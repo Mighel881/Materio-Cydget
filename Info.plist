@@ -1,0 +1,17 @@
+CYTagline = "ConceptLS";
+CYPlugin = "WebCycriptLockScreen";
+CYVersionFilter = (800);
+
+CYConfiguration = {
+    // these are actually relative URLs: you can specify arbitrary http:// or file:///
+    Homepage = "index.html";
+    Background = "background.html";
+    
+
+    // if you are not using Cycript, then you should just delete this
+    CycriptURLs = "^file:///System/Library/LockCydgets/NexusTime\\.cydget/.*\\.html$";
+
+    Scrollable = NO;
+    MediaControls = YES;
+    NotificationList = NO;
+};
